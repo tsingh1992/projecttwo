@@ -833,8 +833,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .fh5co-services .call-to-action .btn-learn {
   padding: 12px 30px;
-  background: #00dee8;
-  color: #fff;
+  background: #66ff66;
+  color: #000000;
 }
 
 .fh5co-counters {
@@ -1437,18 +1437,23 @@ h1, h2, h3, h4, h5, h6 {
 
 /* The Close Button */
 .close {
-    color: #b3b3b3;
+    color: #000000;
     float: right;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: #d9d9d9;
+    color: #666666;
     text-decoration: none;
     cursor: pointer;
 }
 
+.call-to-action {
+	color:#009900;
+	
+	
+}
 
 

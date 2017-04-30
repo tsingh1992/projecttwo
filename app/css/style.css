@@ -225,7 +225,7 @@ Main components
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: white;
+  background: black;
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
@@ -236,11 +236,12 @@ Main components
   clear: both;
 }
 .cd-timeline-content h2 {
-  color: #303e49;
+  color: #ffffff;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 13px;
+  font-size: 16px;
   font-size: 0.8125rem;
+  color: white;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
@@ -248,16 +249,17 @@ Main components
 .cd-timeline-content p {
   margin: 1em 0;
   line-height: 1.6;
+  color: white;
 }
 .cd-timeline-content .cd-read-more {
   float: right;
   padding: .8em 1em;
-  background: #acb7c0;
-  color: white;
+  background: #ff0000;
+  color: black;
   border-radius: 0.25em;
 }
 .no-touch .cd-timeline-content .cd-read-more:hover {
-  background-color: #bac4cb;
+  background-color: #ff6666;
 }
 .cd-timeline-content .cd-date {
   float: left;
@@ -280,11 +282,12 @@ Main components
     font-size: 1.25rem;
   }
   .cd-timeline-content p {
-    font-size: 16px;
+    font-size: 18px;
     font-size: 1rem;
+	color: white;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-    font-size: 14px;
+    font-size: 18px;
     font-size: 0.875rem;
   }
 }
@@ -308,7 +311,7 @@ Main components
     width: 100%;
     left: 122%;
     top: 6px;
-    font-size: 16px;
+    font-size: 20px;
     font-size: 1rem;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
@@ -462,3 +465,6 @@ Main components
     transform: translateX(0);
   }
 }
+
+
+
